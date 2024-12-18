@@ -21,7 +21,7 @@ public class App {
                 Product product3 = new Product("кофе", 400);
                 Product product4 = new Product("конфеты", 700);
                 Product product5 = new Product("колбаса", 600);
-                //Product product6 = new Product("молоко", 100);
+                Product product6 = new Product("молоко", 100);
 
                 ProductBasket productBasket = new ProductBasket();
                 productBasket.addProduct(product1);
@@ -29,7 +29,7 @@ public class App {
                 productBasket.addProduct(product3);
                 productBasket.addProduct(product4);
                 productBasket.addProduct(product5);
-                // productBasket.addProduct(product6);
+                productBasket.addProduct(product6);
 
 
             }
